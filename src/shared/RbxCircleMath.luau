@@ -39,7 +39,7 @@ function RbxCircleMath:debugDrawPixel(point: Vector2): ScreenGui
 
     local pixel = Instance.new("Frame")
     pixel.Parent = container
-    pixel.Size = UDim2.new(0,1,0,1)
+    pixel.Size = UDim2.new(0,3,0,3)
     pixel.BackgroundColor3 = Color3.new(1,0,0)
     pixel.AnchorPoint = Vector2.new(0.5,0.5)
     pixel.Position = UDim2.new(0,point.X,0,point.Y)

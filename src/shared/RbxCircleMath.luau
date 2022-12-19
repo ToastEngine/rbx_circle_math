@@ -27,6 +27,7 @@ function RbxCircleMath:debugDrawLine(a: Vector2, b: Vector2, thickness: number):
     line.Position = UDim2.new(0, center.X, 0, center.Y)
     line.Rotation = math.deg(rotation)
     line.Name = "Line"
+    line.BackgroundColor3 = Color3.new(0.654901, 0.082352, 0.705882)
 
 
     return container

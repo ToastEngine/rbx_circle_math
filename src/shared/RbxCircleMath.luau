@@ -1,4 +1,3 @@
-local ContextActionService = game:GetService("ContextActionService")
 --!strict
 
 local RbxCircleMath = {}

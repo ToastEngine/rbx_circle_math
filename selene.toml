@@ -1,0 +1,7 @@
+std = "roblox"
+[config]
+empty_if = { comments_count = true }
+
+[rules]
+shadowing = "allow"
+unused_variable = "allow"
